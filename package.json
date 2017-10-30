@@ -1,10 +1,11 @@
 {
   "name": "material-ui-custom-datepicker",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "material-ui datepicker connected with textfield",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
+    "build-css": "node-sass lib/calendar.svg build/calendar.svg",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "prepublish": "npm run build"
