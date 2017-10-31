@@ -1,11 +1,11 @@
 {
   "name": "material-ui-custom-datepicker",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "material-ui datepicker connected with textfield",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "build-css": "node-sass lib/calendar.svg build/calendar.svg",
+    "build": "babel lib -d build && npm run build-css",
+    "build-css": "node-sass lib/styles.scss build/styles.css",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "prepublish": "npm run build"
@@ -37,6 +37,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
     "eslint-watch": "^3.1.3",
+    "node-sass": "^4.5.3",
     "polished": "^1.8.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
