@@ -49,7 +49,8 @@ Component support all default DatePicker and TextField material-ui properties. A
 * invalidDateError - invalid date format error
 * maxDateError - "too late date" error
 * minDateError - "too early date" error
-* dateFormat - date format in TextField
+* dateInputFormat - date format in TextField
+* dateValueFormat - date value format
 * maskChar - maskChar of react-input-mask
 * mask - mask of react-input-mask
 
