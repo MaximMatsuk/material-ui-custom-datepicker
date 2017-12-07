@@ -1,6 +1,6 @@
 {
   "name": "material-ui-custom-datepicker",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "material-ui datepicker connected with textfield",
   "main": "build/index.js",
   "scripts": {
@@ -20,18 +20,20 @@
     "url": "https://github.com/MaximMatsuk/material-ui-custom-datepicker/issues"
   },
   "homepage": "https://github.com/MaximMatsuk/material-ui-custom-datepicker#readme",
-  "dependencies":{
-    "material-ui": "0.19.4",
-    "moment": "2.19.1",
+  "dependencies": {
+    "material-ui": "0.20.0",
+    "moment": "2.19.3",
     "react-input-mask": "1.0.7"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "8.0.1",
-    "babel-preset-stage-0": "6.24.1",
+    "babel-plugin-add-module-exports": "0.2.1",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
     "eslint": "4.10.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
