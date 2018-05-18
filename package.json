@@ -1,6 +1,6 @@
 {
   "name": "material-ui-custom-datepicker",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "material-ui datepicker connected with textfield",
   "main": "build/index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/MaximMatsuk/material-ui-custom-datepicker#readme",
   "dependencies": {
-    "material-ui": "0.20.0",
-    "moment": "2.20.1",
+    "material-ui": "0.20.1",
+    "moment": "2.22.1",
     "react-input-mask": "1.2.2"
   },
   "devDependencies": {
