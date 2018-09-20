@@ -1,6 +1,6 @@
 {
   "name": "material-ui-custom-datepicker",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "material-ui datepicker connected with textfield",
   "main": "build/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "material-ui": "0.20.0",
     "moment": "2.22.2",
-    "react-input-mask": "2.0.2"
+    "react-input-mask": "2.0.4"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -42,8 +42,8 @@
     "node-sass": "4.9.2",
     "polished": "1.9.3",
     "prop-types": "15.6.2",
-    "react": "16.4.1",
-    "react-dom": "16.4.1",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
     "styled-components": "3.3.3"
   }
 }
